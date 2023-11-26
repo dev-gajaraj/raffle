@@ -4,8 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-typer = "*"
 pytest = "*"
+typer = {version = "*", extras = ["all"]}
+pytest-cov = "*"
 
 [dev-packages]
 

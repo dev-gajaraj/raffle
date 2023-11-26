@@ -1,7 +1,7 @@
 """Raffle entry point script"""
-# raffle_draw_game/main.py
+# raffle/main.py
 
-from raffle_draw_game import cli, __app_name__
+from raffle import cli, __app_name__
 
 
 def main():

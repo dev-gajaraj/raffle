@@ -2,7 +2,7 @@
 
 from typer.testing import CliRunner
 
-from raffle_draw_game import __app_name__, __version__, cli
+from raffle import __app_name__, __version__, cli
 
 runner = CliRunner()
 

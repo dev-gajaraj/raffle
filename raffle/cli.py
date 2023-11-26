@@ -57,7 +57,14 @@ def start(
                 print(f"[red]{e}[/]")
                 continue
 
-            ticket = Ticket(user_buy_ticket_intput[0], int(user_buy_ticket_intput[1]))
+            ticket: Ticket
+            try:
+                ticket = Ticket(
+                    user_buy_ticket_intput[0], int(user_buy_ticket_intput[1])
+                )
+            except Exception as e:
+                print(f"[red]{e}[/]")
+                continue
 
             try:
                 game.buy_tickets(ticket)

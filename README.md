@@ -2,6 +2,32 @@
 
 The computer this game is going to run should have python v3.10 or above installed.
 
+Install the package manager pipenv via pip
+
+```
+pip install pipenv
+```
+
+Activate virtual environment using this commmand
+
+```
+pipenv shell
+```
+
+Install all dependencies using this command
+
+```
+pipenv install
+```
+
+Open the main folder and run the the pipenv install
+
+```
+pipenv install
+```
+
+Run Raffles app
+
 ```
 python -m raffle start
 ```

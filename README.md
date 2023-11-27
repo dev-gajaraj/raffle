@@ -2,34 +2,48 @@
 
 The computer this game is going to run should have python v3.10 or above installed.
 
-Install the package manager pipenv via pip
+### check python version and pip version using the following command
+
+In windows
 
 ```
-pip install pipenv
+python -V
+pip -V
 ```
 
-Activate virtual environment using this commmand
+In mac/linux
 
 ```
-pipenv shell
+python3 -V
+pip3 -V
 ```
 
-Install all dependencies using this command
+### Install all dependencies using this command
+
+on windows
 
 ```
-pipenv install
+pip install -r requirements.txt
 ```
 
-Open the main folder and run the the pipenv install
+on mac/linux
 
 ```
-pipenv install
+pip3 install -r requirements.txt
 ```
 
-Run Raffles app
+### Run Raffles app
+
+on windows
 
 ```
 python -m raffle start
+```
+
+on mac/linux
+
+```
+python3 -m raffle start
 ```
 
 # Raffle App
@@ -296,7 +310,3 @@ Press any key to return to main menu
 - Include unit tests with code coverage for options 1,2 & 3
 
 Happy coding!
-
-```
-
-```
